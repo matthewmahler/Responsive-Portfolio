@@ -1,0 +1,277 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url("../images/background-image.jpg");
+ }
+
+h1 {
+  font-family: 'Merriweather:900', 'Georgia', Times, "Times New Roman", serif;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  display: inline;
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
+}
+
+h2 {
+  font-family: 'Merriweather:900', Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 100%;
+  color: #4aaaa5;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Merriweather:900', Georgia, 'Times New Roman', Times, serif;
+  border-color: #cccccc;
+  display: block;
+  margin: auto;
+  border: solid #cccccc 5px;
+  width: auto;
+  background: white;
+  padding: 0;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 10px;
+
+  max-height: 18px;
+  background-color: #666666;
+  border-top: #4aaaa5 solid 5px;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  color: rgb(31, 31, 31);
+}
+
+#logo {
+  border: solid #cccccc;
+  border-width: 0 5px 0 5px;
+}
+
+#logo h1 a,
+h1 a:hover {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+
+#logo h1 span {
+  color: rgb(29, 29, 255);
+}
+
+#top-nav {
+  margin: 0 auto;
+  height: 37px;
+  float: right;
+}
+
+#top-nav ul {
+  list-style: none;
+  padding: 0;
+  height: 37px;
+  float: left;
+}
+
+#top-nav ul li {
+  margin: 0;
+  padding: 0 0 0 8px;
+  float: left;
+}
+
+#top-nav ul li a {
+  display: block;
+  margin: 0;
+  padding: 0px 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+#top-nav ul li.active a,
+#top-nav ul li a:hover {
+  color: #d3d3f9;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Lato'; sans-serif
+  font-size: 125%;
+  background-color: #fff;
+  color: #777777;
+}
+
+#main {
+  width: 66%;
+  float: left;
+  background-color: #ffffff;
+}
+
+#social {
+  width: 30%;
+  max-width: 270px;
+  background-color: #ffffff;
+  float: right;
+}
+#side-images{
+  width: 33%;
+  float: left;
+ text-align: center;
+}
+
+#about-top{
+  text-align: center;
+}
+#about {
+width: 65%;
+float: right;
+}
+
+
+
+#header-inner {
+  margin: 0 auto;
+  padding: 00px;
+  width: 960px;
+  background: white;
+}
+
+#logo {
+  padding: 10px;
+  width: auto;
+  float: left;
+  background-color: #4aaaa5;
+}
+
+#connect {
+  width: auto;
+  padding: 0 10px;
+}
+
+#icons {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+.ia{
+  font-family: 'Merriweather', serif;
+  font-size: 500%;
+  font-weight: bolder;
+  color: #333
+}
+.am{
+  font-family: 'Merriweather', serif;
+  font-size: 500%;
+  font-weight: bolder;
+  color: #3b5998
+}
+
+.icons {
+  padding: 10px 10px 30px;
+  align-content: center;
+}
+
+.clr {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.album {
+  width: 50%;
+  height: 316px;
+  float: left;
+  text-align: center;
+  padding
+}
+
+.side-image{
+    padding: 0 0 15px 0;
+}
+
+.bottom-image{
+padding: 0 0 60px 0;
+
+}
+.fab {
+  width: 30%;
+  padding: 0 0 10px 0;
+}
+
+.fab:hover {
+  opacity: .8;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #bc2a8d;
+}
+
+.fa-bandcamp {
+  color: #477987
+}
+
+.fa-spotify {
+  color: #1db954
+}
+
+.fa-soundcloud {
+  color: #ff8800
+}
+
+.fa-github {
+  color: #4078c0
+}
+
+.fa-twitch {
+  color: #6441A4; 
+}
+
+.fa-youtube-square{
+  color: #bb0000;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
