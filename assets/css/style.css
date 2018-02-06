@@ -399,21 +399,31 @@ h1 a:hover {
   }
   header {
     width: 100%;
-    border: solid #cccccc 5px;
+    border: none;
+    margin: 0;
+  }
+  #header-inner{
+    width: 100%;
+    border: none;
+    margin: 0;
   }
   #logo {
     width: 100%;
     text-align: center;
     border: none;
     float: none;
+    padding: 10px 0;
   }
   #top-nav {
     float: none;
     width: 100%;
     padding: none;
+    margin: 0;
+
   }
   #top-nav ul {
     height: auto;
+
   }
 
 
