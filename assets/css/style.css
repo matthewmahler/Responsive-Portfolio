@@ -368,20 +368,21 @@ h1 a:hover {
   }
   #side-images {
     width: 30%;
+    margin-right: 10px;
   }
   .side-image {
     display: none;
+    width: 100%;
+    text-align: center;
   }
   .profile {
+    width: 100%;
     display: block;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    float: left;
-    padding: 10px 0 0 20px;
+      padding: 10px 10px 0 20px;
+      height: auto;
   }
   #about {
-    width: 70%;
+    width: 66%;
   }
   .about {
     padding-left: 20px;
